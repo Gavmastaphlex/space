@@ -1,0 +1,260 @@
+/*===============people===============*/
+
+p, .people-article li{
+	font-family: GillSans, dinregular, helvetica, sans-serif;
+}
+
+#people-nav{
+	color: #FFFFFF;
+	position: relative;
+	top: 371px;
+	right: 83px;
+}
+
+
+#people-nav li{
+	display: inline-block;
+	margin-left: 35px;
+	font-family: EurostileLTStd-Ex2, helvetica, sans-serif;
+	color: #FFFFFF !important;
+	font-size: 9pt;
+	letter-spacing: 4px;
+}
+
+.people-article p{
+	font-size: 11pt;
+}
+
+.people-article li{
+	font-size: 11pt;
+}
+
+.dd-people{
+	color: #FFFFFF;
+	opacity: 1!important;
+}
+
+#people-nav-bar a.active{
+	opacity: 0.4;
+}
+
+#people-nav-bar a.inactive{
+	opacity: 1;
+}
+
+.people-article{
+	width: 720px;
+	color: #FFFFFF;
+}
+
+.people-article h3{
+	font-family: EurostileLTStd-Ex2, helvetica, sans-serif;
+	font-size: 9pt;
+	letter-spacing: 4px;
+}
+
+.drop-people{
+	color: #FFFFFF!important;
+}
+
+#dd-1{
+	position: relative; 
+	left: -90px;
+}
+
+#dd-2{
+	position: relative; 
+	left: -70px;
+}
+
+#dd-3{
+	position: relative; 
+	left: 40px;
+}
+
+#dd-4{
+	position: relative; 
+	left: 80px;
+}
+
+#dd-5{
+	position: relative; 
+	left: 120px;
+}
+
+#dd-6{
+	position: relative; 
+	left: 150px;
+}
+
+#dd-7{
+	position: relative; 
+	left: 170px;
+}
+
+#dd-8{
+	position: relative; 
+	left: 250px;
+}
+
+#dd-9{
+	position: relative; 
+	left: 300px;
+}
+
+#dd-10{
+	position: relative; 
+	left: 340px;
+}
+
+#dd-11{
+	position: relative; 
+	left: 490px;
+}
+
+#dd-12{
+	position: relative; 
+	left: 340px;
+}
+
+#dd-13{
+	position: relative; 
+	left: 560px;
+}
+
+#dd-14{
+	position: relative; 
+	left: 600px;
+}
+
+#dd-15{
+	position: relative; 
+	left: 660px;
+}
+
+#item1 a ul {
+  display: none;
+  position: absolute;
+}
+
+#item1 a:hover ul {
+  display: block;
+  padding-top: 10px;
+  list-style-type: none;
+  color: #FFFFFF;
+  opacity: 1 !important;
+}
+
+#people-article-1{
+	position: relative;
+	right: 0px;
+	top: 60px;
+}
+
+
+#people-article-2{
+	position: relative;
+	right: 0px;
+	top: -10px !important;
+}
+
+#people-article-3{
+	position: relative;
+	right: 0px;
+	top: 60px !important;
+}
+
+#people-article-4{
+	position: relative;
+	right: 0px;
+	top: 50px !important;
+}
+
+#people-article-5{
+	position: relative;
+	right: 0px;
+	top: 40px !important;
+	width: 800px;
+}
+
+#people-article-6{
+	position: relative;
+	right: 0px;
+	top: 40px !important;
+}
+
+.person-content-object {
+	float: left;
+}
+
+.person-content-text {
+	margin: 20px 0 0 40px;
+}
+
+/*======people Slide=======*/
+
+#people-body{
+	height:500px;
+	width: 1000px;
+	margin:0;padding:0;
+	overflow:hidden;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	top:0;left:0;
+	overflow:hidden;
+}
+
+#mask {
+	width: 1700%;
+	height: 100%;
+	background-color:#000000;
+}
+
+.item {
+	width: 5.8%;
+	height:100%;
+	float:left;
+}
+
+
+.content {
+	width:400px;
+	height:290px;
+	top:20%;
+	margin:0 auto;
+	position: relative;
+	right: 160px;
+	top: 180px;
+}
+
+.clear {
+	clear:both;
+}
+
+#item1{
+	position: relative;
+	top: 500px;
+	left: 65px !important;
+	color: #FFFFFF;
+	width: 1000px !important;
+
+}
+
+#item1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: EurostileLTStd-Ex2, helvetica, sans-serif;
+	margin-right: 25px;
+}
+
+#item1 li{
+	font-size: 9pt;
+	letter-spacing: 4px;
+}
+
+.active, .active ul {
+	opacity: .6;
+}

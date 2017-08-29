@@ -1,0 +1,16 @@
+.project-menu-item {
+	padding: 10px;
+}
+
+.hover-background {
+	display: none;
+	position: absolute;
+	top: 135px;
+	left: 8px;
+}
+
+.hover-background2 {
+	display: none;
+	position: absolute;
+	top: 135px;
+}

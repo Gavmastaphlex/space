@@ -1,0 +1,141 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.scroll-pane-split{
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+
+.jspVerticalBar
+{
+	background: red;
+	position: absolute;
+	right: 60px;
+	width: 16px;
+}
+
+.jspHorizontalBar
+{
+	display: none;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background-color: #ffffff;
+	position: relative;
+	display: none;
+}
+
+.jspDrag
+{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(29%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#7db9e8));
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	width: 20px;
+	height: 50px;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrowUp{
+	background-image: url('../images/media/up arrow.png?234234652346');
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 31px;
+	position: fixed;
+	top: 143px;
+}
+
+.jspArrowDown{
+	background-image: url('../images/media/downarrow.png?234234652346');
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 610px;
+	margin-top: 10px;
+}
+
+
+.jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	
+	
+}
+
+.jspVerticalBar .jspArrow
+{
+	width: 40px;
+	height: 60px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}

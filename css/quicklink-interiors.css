@@ -1,0 +1,53 @@
+#quicklink {
+	font-family: 'EurostileLTStd-Ex2';
+	margin: 0 auto;
+    width: 950px;
+    background-color: black;
+    padding: 0 10px 20px;
+
+}
+
+#quicklink ul {
+	margin: 0 0 0 0;
+}
+
+#quicklink a {
+	text-decoration: none; 
+	color: #444;
+}
+
+.quicklink-link {
+	font-size: 11.5px;
+	float: left;
+	list-style: none;
+}
+
+.quicklink-link2 {
+	font-size: 11.5px;
+	float: right;
+	list-style: none;
+}
+
+.quicklink-dot {
+	color: #444;
+	float: left;
+	height: 5px;
+	margin: 8px 5px 0;
+}
+
+#dot-one {
+	margin: 8px 0 0 13px;
+}
+
+#dot-two {
+	margin: 8px 0 0 36px;		
+}
+
+#dot-three {
+	margin: 8px 0 0 70px;
+}
+
+
+.clearDiv {
+	clear: both;
+}
